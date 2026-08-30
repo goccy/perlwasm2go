@@ -5,35 +5,47 @@ import (
 	_ "unsafe"
 )
 
-//go:linkname Fn128 github.com/goccy/perlwasm2go/p1.Fn128
-func Fn128(m *base.Module)
-
-//go:linkname Fn129 github.com/goccy/perlwasm2go/p1.Fn129
-func Fn129(m *base.Module, l0 int32) int32
-
 //go:linkname Fn130 github.com/goccy/perlwasm2go/p1.Fn130
-func Fn130(m *base.Module, l0 int32)
+func Fn130(m *base.Module)
 
 //go:linkname Fn131 github.com/goccy/perlwasm2go/p1.Fn131
-func Fn131(m *base.Module, l0 int32, l1 int32) int64
+func Fn131(m *base.Module, l0 int32) int32
 
-//go:linkname Fn138 github.com/goccy/perlwasm2go/p1.Fn138
-func Fn138(m *base.Module, l0 int32, l1 int32) int64
+//go:linkname Fn132 github.com/goccy/perlwasm2go/p1.Fn132
+func Fn132(m *base.Module, l0 int32)
 
-//go:linkname Fn145 github.com/goccy/perlwasm2go/p1.Fn145
-func Fn145(m *base.Module, l0 int32, l1 int32) int64
+//go:linkname Fn133 github.com/goccy/perlwasm2go/p1.Fn133
+func Fn133(m *base.Module, l0 int32, l1 int32) int64
 
-//go:linkname Fn146 github.com/goccy/perlwasm2go/p0.Fn146
-func Fn146(m *base.Module, l0 int32, l1 int32) int64
-
-//go:linkname Fn147 github.com/goccy/perlwasm2go/p1.Fn147
-func Fn147(m *base.Module, l0 int32, l1 int32) int64
+//go:linkname Fn148 github.com/goccy/perlwasm2go/p1.Fn148
+func Fn148(m *base.Module, l0 int32, l1 int32) int64
 
 //go:linkname Fn149 github.com/goccy/perlwasm2go/p1.Fn149
-func Fn149(m *base.Module) int32
+func Fn149(m *base.Module, l0 int32, l1 int32) int64
 
 //go:linkname Fn150 github.com/goccy/perlwasm2go/p1.Fn150
-func Fn150(m *base.Module)
+func Fn150(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn151 github.com/goccy/perlwasm2go/p0.Fn151
+func Fn151(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn153 github.com/goccy/perlwasm2go/p1.Fn153
+func Fn153(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn154 github.com/goccy/perlwasm2go/p1.Fn154
+func Fn154(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn155 github.com/goccy/perlwasm2go/p1.Fn155
+func Fn155(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn156 github.com/goccy/perlwasm2go/p1.Fn156
+func Fn156(m *base.Module, l0 int32, l1 int32) int64
+
+//go:linkname Fn158 github.com/goccy/perlwasm2go/p1.Fn158
+func Fn158(m *base.Module) int32
+
+//go:linkname Fn159 github.com/goccy/perlwasm2go/p1.Fn159
+func Fn159(m *base.Module)
 
 //go:linkname InitElemSeg_0_0 github.com/goccy/perlwasm2go/p0.InitElemSeg_0_0
 func InitElemSeg_0_0(m *base.Module)
