@@ -71,6 +71,8 @@ type Wasi_snapshot_preview1Imports interface {
 	Sock_shutdown(m *Module, l0 int32, l1 int32) int32
 }
 type EnvImports interface {
+	X__cxa_allocate_exception(m *Module, l0 int32) int32
+	X__cxa_throw(m *Module, l0 int32, l1 int32, l2 int32)
 	Getuid(m *Module) int32
 	Getpwuid(m *Module, l0 int32) int32
 	Getpwnam(m *Module, l0 int32) int32
@@ -325,6 +327,16 @@ func F64_neg(x float64) float64 {
 
 func F64_copysign(x, y float64) float64 { return math.Copysign(x, y) }
 
+func I32_trunc_sat_f32_u(x float32) int32 {
+	if x != x || x <= 0 {
+		return 0
+	}
+	if x >= 4294967296.0 {
+		return -1
+	}
+	return int32(uint32(x))
+}
+
 func I32_trunc_sat_f64_s(x float64) int32 {
 	if x != x {
 		return 0
@@ -496,7 +508,7 @@ func I64_rem_u_s(x, y int64) int64 { return int64(I64_rem_u(uint64(x), uint64(y)
 func F32_add(x, y float32) float32 { return float32(x + y) }
 func F32_sub(x, y float32) float32 { return float32(x - y) }
 func F32_mul(x, y float32) float32 { return float32(x * y) }
-
+func F32_div(x, y float32) float32 { return float32(x / y) }
 func F64_add(x, y float64) float64 { return float64(x + y) }
 func F64_sub(x, y float64) float64 { return float64(x - y) }
 func F64_mul(x, y float64) float64 { return float64(x * y) }
@@ -509,6 +521,7 @@ func I32_popcnt(x int32) int32 { return int32(bits.OnesCount32(uint32(x))) }
 func I64_clz(x int64) int64 { return int64(bits.LeadingZeros64(uint64(x))) }
 func I64_ctz(x int64) int64 { return int64(bits.TrailingZeros64(uint64(x))) }
 
+func F32_ceil(x float32) float32 { return float32(math.Ceil(float64(x))) }
 func F64_ceil(x float64) float64 { return math.Ceil(x) }
 
 func F64_floor(x float64) float64 { return math.Floor(x) }
@@ -519,6 +532,12 @@ func F64_sqrt(x float64) float64 { return math.Sqrt(x) }
 
 func F32_lt(x, y float32) int32 {
 	if x < y {
+		return 1
+	}
+	return 0
+}
+func F32_gt(x, y float32) int32 {
+	if x > y {
 		return 1
 	}
 	return 0
