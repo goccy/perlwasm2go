@@ -7,563 +7,452 @@ import (
 	_ "unsafe"
 )
 
-//go:linkname Fn164 github.com/goccy/perlwasm2go/p0.Fn164
-func Fn164(m *base.Module, l0 int32) int32
+//go:linkname Fn185 github.com/goccy/perlwasm2go/p0.Fn185
+func Fn185(m *base.Module, l0 int32) int32
 
-//go:linkname Fn169 github.com/goccy/perlwasm2go/p0.Fn169
-func Fn169(m *base.Module, l0 int32) int32
+//go:linkname Fn198 github.com/goccy/perlwasm2go/p0.Fn198
+func Fn198(m *base.Module, l0 int32) int32
 
-//go:linkname Fn175 github.com/goccy/perlwasm2go/p0.Fn175
-func Fn175(m *base.Module, l0 int32)
+//go:linkname Fn202 github.com/goccy/perlwasm2go/p0.Fn202
+func Fn202(m *base.Module, l0 int32) int32
 
-//go:linkname Fn176 github.com/goccy/perlwasm2go/p0.Fn176
-func Fn176(m *base.Module, l0 int64, l1 int32, l2 int64, l3 int64, l4 int32) int64
+//go:linkname Fn212 github.com/goccy/perlwasm2go/p0.Fn212
+func Fn212(m *base.Module, l0 int32) int32
 
-//go:linkname Fn177 github.com/goccy/perlwasm2go/p0.Fn177
-func Fn177(m *base.Module, l0 int32) int32
+//go:linkname Fn214 github.com/goccy/perlwasm2go/p0.Fn214
+func Fn214(m *base.Module, l0 int32)
 
-//go:linkname Fn178 github.com/goccy/perlwasm2go/p0.Fn178
-func Fn178(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn222 github.com/goccy/perlwasm2go/p0.Fn222
+func Fn222(m *base.Module, l0 int32)
 
-//go:linkname Fn298 github.com/goccy/perlwasm2go/p0.Fn298
-func Fn298(m *base.Module, l0 int32) int32
+//go:linkname Fn227 github.com/goccy/perlwasm2go/p0.Fn227
+func Fn227(m *base.Module, l0 int32) float64
 
-//go:linkname Fn300 github.com/goccy/perlwasm2go/p0.Fn300
-func Fn300(m *base.Module, l0 int32) int32
+//go:linkname Fn230 github.com/goccy/perlwasm2go/p0.Fn230
+func Fn230(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn301 github.com/goccy/perlwasm2go/p0.Fn301
-func Fn301(m *base.Module, l0 int32) int32
+//go:linkname Fn236 github.com/goccy/perlwasm2go/p0.Fn236
+func Fn236(m *base.Module, l0 int64, l1 int32, l2 int64, l3 int64, l4 int32) int64
 
-//go:linkname Fn338 github.com/goccy/perlwasm2go/p0.Fn338
-func Fn338(m *base.Module, l0 int32)
+//go:linkname Fn237 github.com/goccy/perlwasm2go/p0.Fn237
+func Fn237(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn344 github.com/goccy/perlwasm2go/p0.Fn344
-func Fn344(m *base.Module, l0 int32) int32
+//go:linkname Fn370 github.com/goccy/perlwasm2go/p0.Fn370
+func Fn370(m *base.Module, l0 int32) int32
 
 //go:linkname Fn372 github.com/goccy/perlwasm2go/p0.Fn372
 func Fn372(m *base.Module, l0 int32) int32
 
-//go:linkname Fn396 github.com/goccy/perlwasm2go/p0.Fn396
-func Fn396(m *base.Module, l0 int32) int32
+//go:linkname Fn413 github.com/goccy/perlwasm2go/p0.Fn413
+func Fn413(m *base.Module, l0 int32) int32
 
-//go:linkname Fn399 github.com/goccy/perlwasm2go/p0.Fn399
-func Fn399(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32)
+//go:linkname Fn441 github.com/goccy/perlwasm2go/p0.Fn441
+func Fn441(m *base.Module, l0 int32) int32
 
-//go:linkname Fn427 github.com/goccy/perlwasm2go/p0.Fn427
-func Fn427(m *base.Module, l0 int32) int32
+//go:linkname Fn444 github.com/goccy/perlwasm2go/p0.Fn444
+func Fn444(m *base.Module, l0 int32) int32
 
-//go:linkname Fn451 github.com/goccy/perlwasm2go/p0.Fn451
-func Fn451(m *base.Module, l0 int32) float64
+//go:linkname Fn468 github.com/goccy/perlwasm2go/p0.Fn468
+func Fn468(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32)
 
-//go:linkname Fn454 github.com/goccy/perlwasm2go/p0.Fn454
-func Fn454(m *base.Module, l0 int32) int32
+//go:linkname Fn496 github.com/goccy/perlwasm2go/p0.Fn496
+func Fn496(m *base.Module, l0 int32) int32
 
-//go:linkname Fn492 github.com/goccy/perlwasm2go/p0.Fn492
-func Fn492(m *base.Module)
+//go:linkname Fn549 github.com/goccy/perlwasm2go/p0.Fn549
+func Fn549(m *base.Module, l0 int32) int32
 
-//go:linkname Fn501 github.com/goccy/perlwasm2go/p0.Fn501
-func Fn501(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn560 github.com/goccy/perlwasm2go/p0.Fn560
+func Fn560(m *base.Module)
 
-//go:linkname Fn508 github.com/goccy/perlwasm2go/p0.Fn508
-func Fn508(m *base.Module, l0 int32)
+//go:linkname Fn569 github.com/goccy/perlwasm2go/p0.Fn569
+func Fn569(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn599 github.com/goccy/perlwasm2go/p0.Fn599
-func Fn599(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn576 github.com/goccy/perlwasm2go/p0.Fn576
+func Fn576(m *base.Module, l0 int32)
 
-//go:linkname Fn618 github.com/goccy/perlwasm2go/p0.Fn618
-func Fn618(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn667 github.com/goccy/perlwasm2go/p0.Fn667
+func Fn667(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn754 github.com/goccy/perlwasm2go/p0.Fn754
-func Fn754(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn686 github.com/goccy/perlwasm2go/p0.Fn686
+func Fn686(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn829 github.com/goccy/perlwasm2go/p0.Fn829
-func Fn829(m *base.Module, l0 int32) int32
+//go:linkname Fn821 github.com/goccy/perlwasm2go/p0.Fn821
+func Fn821(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn851 github.com/goccy/perlwasm2go/p0.Fn851
-func Fn851(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn896 github.com/goccy/perlwasm2go/p0.Fn896
+func Fn896(m *base.Module, l0 int32) int32
 
-//go:linkname Fn948 github.com/goccy/perlwasm2go/p0.Fn948
-func Fn948(m *base.Module)
+//go:linkname Fn918 github.com/goccy/perlwasm2go/p0.Fn918
+func Fn918(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn952 github.com/goccy/perlwasm2go/p0.Fn952
-func Fn952(m *base.Module, l0 int32) int32
+//go:linkname Fn1015 github.com/goccy/perlwasm2go/p0.Fn1015
+func Fn1015(m *base.Module)
 
-//go:linkname Fn971 github.com/goccy/perlwasm2go/p0.Fn971
-func Fn971(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1019 github.com/goccy/perlwasm2go/p0.Fn1019
+func Fn1019(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1054 github.com/goccy/perlwasm2go/p0.Fn1054
-func Fn1054(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1063 github.com/goccy/perlwasm2go/p0.Fn1063
-func Fn1063(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1097 github.com/goccy/perlwasm2go/p0.Fn1097
-func Fn1097(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1100 github.com/goccy/perlwasm2go/p0.Fn1100
-func Fn1100(m *base.Module, l0 int32)
-
-//go:linkname Fn1102 github.com/goccy/perlwasm2go/p0.Fn1102
-func Fn1102(m *base.Module, l0 int32)
-
-//go:linkname Fn1111 github.com/goccy/perlwasm2go/p0.Fn1111
-func Fn1111(m *base.Module, l0 int32)
-
-//go:linkname Fn1112 github.com/goccy/perlwasm2go/p0.Fn1112
-func Fn1112(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1113 github.com/goccy/perlwasm2go/p0.Fn1113
-func Fn1113(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn1114 github.com/goccy/perlwasm2go/p0.Fn1114
-func Fn1114(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1115 github.com/goccy/perlwasm2go/p0.Fn1115
-func Fn1115(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn1117 github.com/goccy/perlwasm2go/p0.Fn1117
-func Fn1117(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1119 github.com/goccy/perlwasm2go/p0.Fn1119
-func Fn1119(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1120 github.com/goccy/perlwasm2go/p0.Fn1120
-func Fn1120(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1121 github.com/goccy/perlwasm2go/p0.Fn1121
-func Fn1121(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1122 github.com/goccy/perlwasm2go/p0.Fn1122
-func Fn1122(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1125 github.com/goccy/perlwasm2go/p0.Fn1125
-func Fn1125(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1127 github.com/goccy/perlwasm2go/p0.Fn1127
-func Fn1127(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1128 github.com/goccy/perlwasm2go/p0.Fn1128
-func Fn1128(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1129 github.com/goccy/perlwasm2go/p0.Fn1129
-func Fn1129(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1038 github.com/goccy/perlwasm2go/p0.Fn1038
+func Fn1038(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn1130 github.com/goccy/perlwasm2go/p0.Fn1130
-func Fn1130(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1130(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1132 github.com/goccy/perlwasm2go/p0.Fn1132
-func Fn1132(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1134 github.com/goccy/perlwasm2go/p0.Fn1134
-func Fn1134(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1137 github.com/goccy/perlwasm2go/p0.Fn1137
-func Fn1137(m *base.Module)
-
-//go:linkname Fn1138 github.com/goccy/perlwasm2go/p0.Fn1138
-func Fn1138(m *base.Module)
-
-//go:linkname Fn1139 github.com/goccy/perlwasm2go/p0.Fn1139
-func Fn1139(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1140 github.com/goccy/perlwasm2go/p0.Fn1140
-func Fn1140(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1141 github.com/goccy/perlwasm2go/p0.Fn1141
-func Fn1141(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn1142 github.com/goccy/perlwasm2go/p0.Fn1142
-func Fn1142(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1147 github.com/goccy/perlwasm2go/p0.Fn1147
-func Fn1147(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn1148 github.com/goccy/perlwasm2go/p0.Fn1148
-func Fn1148(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1149 github.com/goccy/perlwasm2go/p0.Fn1149
-func Fn1149(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1150 github.com/goccy/perlwasm2go/p0.Fn1150
-func Fn1150(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1151 github.com/goccy/perlwasm2go/p0.Fn1151
-func Fn1151(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1152 github.com/goccy/perlwasm2go/p0.Fn1152
-func Fn1152(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1154 github.com/goccy/perlwasm2go/p0.Fn1154
-func Fn1154(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1156 github.com/goccy/perlwasm2go/p0.Fn1156
-func Fn1156(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
-
-//go:linkname Fn1157 github.com/goccy/perlwasm2go/p0.Fn1157
-func Fn1157(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1158 github.com/goccy/perlwasm2go/p0.Fn1158
-func Fn1158(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1160 github.com/goccy/perlwasm2go/p0.Fn1160
-func Fn1160(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1161 github.com/goccy/perlwasm2go/p0.Fn1161
-func Fn1161(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1165 github.com/goccy/perlwasm2go/p0.Fn1165
-func Fn1165(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn1164 github.com/goccy/perlwasm2go/p0.Fn1164
+func Fn1164(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1167 github.com/goccy/perlwasm2go/p0.Fn1167
-func Fn1167(m *base.Module, l0 int32) int32
+func Fn1167(m *base.Module, l0 int32)
 
-//go:linkname Fn1171 github.com/goccy/perlwasm2go/p0.Fn1171
-func Fn1171(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1172 github.com/goccy/perlwasm2go/p0.Fn1172
-func Fn1172(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1177 github.com/goccy/perlwasm2go/p0.Fn1177
-func Fn1177(m *base.Module, l0 int32) int32
+//go:linkname Fn1169 github.com/goccy/perlwasm2go/p0.Fn1169
+func Fn1169(m *base.Module, l0 int32)
 
 //go:linkname Fn1178 github.com/goccy/perlwasm2go/p0.Fn1178
-func Fn1178(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1178(m *base.Module, l0 int32)
 
-//go:linkname Fn1183 github.com/goccy/perlwasm2go/p0.Fn1183
-func Fn1183(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1179 github.com/goccy/perlwasm2go/p0.Fn1179
+func Fn1179(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn1180 github.com/goccy/perlwasm2go/p0.Fn1180
+func Fn1180(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn1181 github.com/goccy/perlwasm2go/p0.Fn1181
+func Fn1181(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1182 github.com/goccy/perlwasm2go/p0.Fn1182
+func Fn1182(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn1184 github.com/goccy/perlwasm2go/p0.Fn1184
-func Fn1184(m *base.Module, l0 int32)
+func Fn1184(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1186 github.com/goccy/perlwasm2go/p0.Fn1186
+func Fn1186(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1187 github.com/goccy/perlwasm2go/p0.Fn1187
-func Fn1187(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1187(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1188 github.com/goccy/perlwasm2go/p0.Fn1188
+func Fn1188(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1189 github.com/goccy/perlwasm2go/p0.Fn1189
+func Fn1189(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1192 github.com/goccy/perlwasm2go/p0.Fn1192
+func Fn1192(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1194 github.com/goccy/perlwasm2go/p0.Fn1194
-func Fn1194(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1194(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1195 github.com/goccy/perlwasm2go/p0.Fn1195
-func Fn1195(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+func Fn1195(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1196 github.com/goccy/perlwasm2go/p0.Fn1196
+func Fn1196(m *base.Module, l0 int32, l1 int32, l2 int32)
 
 //go:linkname Fn1197 github.com/goccy/perlwasm2go/p0.Fn1197
-func Fn1197(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1198 github.com/goccy/perlwasm2go/p0.Fn1198
-func Fn1198(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+func Fn1197(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn1199 github.com/goccy/perlwasm2go/p0.Fn1199
-func Fn1199(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
-
-//go:linkname Fn1200 github.com/goccy/perlwasm2go/p0.Fn1200
-func Fn1200(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1199(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1201 github.com/goccy/perlwasm2go/p0.Fn1201
-func Fn1201(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+func Fn1201(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1203 github.com/goccy/perlwasm2go/p0.Fn1203
-func Fn1203(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn1204 github.com/goccy/perlwasm2go/p0.Fn1204
+func Fn1204(m *base.Module)
+
+//go:linkname Fn1205 github.com/goccy/perlwasm2go/p0.Fn1205
+func Fn1205(m *base.Module)
+
+//go:linkname Fn1206 github.com/goccy/perlwasm2go/p0.Fn1206
+func Fn1206(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1207 github.com/goccy/perlwasm2go/p0.Fn1207
+func Fn1207(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1208 github.com/goccy/perlwasm2go/p0.Fn1208
+func Fn1208(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn1209 github.com/goccy/perlwasm2go/p0.Fn1209
+func Fn1209(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
 //go:linkname Fn1214 github.com/goccy/perlwasm2go/p0.Fn1214
-func Fn1214(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+func Fn1214(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn1215 github.com/goccy/perlwasm2go/p0.Fn1215
+func Fn1215(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1216 github.com/goccy/perlwasm2go/p0.Fn1216
+func Fn1216(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1217 github.com/goccy/perlwasm2go/p0.Fn1217
+func Fn1217(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1218 github.com/goccy/perlwasm2go/p0.Fn1218
+func Fn1218(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1219 github.com/goccy/perlwasm2go/p0.Fn1219
+func Fn1219(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1221 github.com/goccy/perlwasm2go/p0.Fn1221
+func Fn1221(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn1223 github.com/goccy/perlwasm2go/p0.Fn1223
+func Fn1223(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn1224 github.com/goccy/perlwasm2go/p0.Fn1224
+func Fn1224(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1225 github.com/goccy/perlwasm2go/p0.Fn1225
+func Fn1225(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1227 github.com/goccy/perlwasm2go/p0.Fn1227
+func Fn1227(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1228 github.com/goccy/perlwasm2go/p0.Fn1228
-func Fn1228(m *base.Module, l0 int32, l1 int32) int32
+func Fn1228(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1232 github.com/goccy/perlwasm2go/p0.Fn1232
+func Fn1232(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
 //go:linkname Fn1234 github.com/goccy/perlwasm2go/p0.Fn1234
-func Fn1234(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+func Fn1234(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1306 github.com/goccy/perlwasm2go/p0.Fn1306
-func Fn1306(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1238 github.com/goccy/perlwasm2go/p0.Fn1238
+func Fn1238(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1317 github.com/goccy/perlwasm2go/p0.Fn1317
-func Fn1317(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn1239 github.com/goccy/perlwasm2go/p0.Fn1239
+func Fn1239(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1328 github.com/goccy/perlwasm2go/p0.Fn1328
-func Fn1328(m *base.Module, l0 int32) int32
+//go:linkname Fn1244 github.com/goccy/perlwasm2go/p0.Fn1244
+func Fn1244(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1331 github.com/goccy/perlwasm2go/p0.Fn1331
-func Fn1331(m *base.Module)
+//go:linkname Fn1245 github.com/goccy/perlwasm2go/p0.Fn1245
+func Fn1245(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1332 github.com/goccy/perlwasm2go/p0.Fn1332
-func Fn1332(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1250 github.com/goccy/perlwasm2go/p0.Fn1250
+func Fn1250(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn1333 github.com/goccy/perlwasm2go/p0.Fn1333
-func Fn1333(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1251 github.com/goccy/perlwasm2go/p0.Fn1251
+func Fn1251(m *base.Module, l0 int32)
 
-//go:linkname Fn1337 github.com/goccy/perlwasm2go/p0.Fn1337
-func Fn1337(m *base.Module, l0 int32) int32
+//go:linkname Fn1254 github.com/goccy/perlwasm2go/p0.Fn1254
+func Fn1254(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1339 github.com/goccy/perlwasm2go/p0.Fn1339
-func Fn1339(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1261 github.com/goccy/perlwasm2go/p0.Fn1261
+func Fn1261(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1353 github.com/goccy/perlwasm2go/p0.Fn1353
-func Fn1353(m *base.Module, l0 int32)
+//go:linkname Fn1262 github.com/goccy/perlwasm2go/p0.Fn1262
+func Fn1262(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1355 github.com/goccy/perlwasm2go/p0.Fn1355
-func Fn1355(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn1264 github.com/goccy/perlwasm2go/p0.Fn1264
+func Fn1264(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1356 github.com/goccy/perlwasm2go/p0.Fn1356
-func Fn1356(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1265 github.com/goccy/perlwasm2go/p0.Fn1265
+func Fn1265(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn1360 github.com/goccy/perlwasm2go/p0.Fn1360
-func Fn1360(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1266 github.com/goccy/perlwasm2go/p0.Fn1266
+func Fn1266(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn1362 github.com/goccy/perlwasm2go/p0.Fn1362
-func Fn1362(m *base.Module, l0 int32)
+//go:linkname Fn1267 github.com/goccy/perlwasm2go/p0.Fn1267
+func Fn1267(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1370 github.com/goccy/perlwasm2go/p0.Fn1370
-func Fn1370(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn1268 github.com/goccy/perlwasm2go/p0.Fn1268
+func Fn1268(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn1372 github.com/goccy/perlwasm2go/p0.Fn1372
-func Fn1372(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1270 github.com/goccy/perlwasm2go/p0.Fn1270
+func Fn1270(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn1281 github.com/goccy/perlwasm2go/p0.Fn1281
+func Fn1281(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn1295 github.com/goccy/perlwasm2go/p0.Fn1295
+func Fn1295(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1301 github.com/goccy/perlwasm2go/p0.Fn1301
+func Fn1301(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
 //go:linkname Fn1373 github.com/goccy/perlwasm2go/p0.Fn1373
-func Fn1373(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+func Fn1373(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn1376 github.com/goccy/perlwasm2go/p0.Fn1376
-func Fn1376(m *base.Module, l0 int32) int32
+//go:linkname Fn1384 github.com/goccy/perlwasm2go/p0.Fn1384
+func Fn1384(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1424 github.com/goccy/perlwasm2go/p0.Fn1424
-func Fn1424(m *base.Module, l0 int32)
+//go:linkname Fn1395 github.com/goccy/perlwasm2go/p0.Fn1395
+func Fn1395(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1425 github.com/goccy/perlwasm2go/p0.Fn1425
-func Fn1425(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1398 github.com/goccy/perlwasm2go/p0.Fn1398
+func Fn1398(m *base.Module)
 
-//go:linkname Fn1426 github.com/goccy/perlwasm2go/p0.Fn1426
-func Fn1426(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn1399 github.com/goccy/perlwasm2go/p0.Fn1399
+func Fn1399(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1400 github.com/goccy/perlwasm2go/p0.Fn1400
+func Fn1400(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1404 github.com/goccy/perlwasm2go/p0.Fn1404
+func Fn1404(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1406 github.com/goccy/perlwasm2go/p0.Fn1406
+func Fn1406(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1420 github.com/goccy/perlwasm2go/p0.Fn1420
+func Fn1420(m *base.Module, l0 int32)
+
+//go:linkname Fn1422 github.com/goccy/perlwasm2go/p0.Fn1422
+func Fn1422(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1423 github.com/goccy/perlwasm2go/p0.Fn1423
+func Fn1423(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1427 github.com/goccy/perlwasm2go/p0.Fn1427
-func Fn1427(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1428 github.com/goccy/perlwasm2go/p0.Fn1428
-func Fn1428(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1427(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1429 github.com/goccy/perlwasm2go/p0.Fn1429
-func Fn1429(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1430 github.com/goccy/perlwasm2go/p0.Fn1430
-func Fn1430(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1432 github.com/goccy/perlwasm2go/p0.Fn1432
-func Fn1432(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1433 github.com/goccy/perlwasm2go/p0.Fn1433
-func Fn1433(m *base.Module, l0 int32)
+func Fn1429(m *base.Module, l0 int32)
 
 //go:linkname Fn1437 github.com/goccy/perlwasm2go/p0.Fn1437
-func Fn1437(m *base.Module, l0 int32, l1 int32)
+func Fn1437(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn1438 github.com/goccy/perlwasm2go/p0.Fn1438
-func Fn1438(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1439 github.com/goccy/perlwasm2go/p0.Fn1439
+func Fn1439(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1441 github.com/goccy/perlwasm2go/p0.Fn1441
-func Fn1441(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn1442 github.com/goccy/perlwasm2go/p0.Fn1442
-func Fn1442(m *base.Module, l0 int32) int32
+//go:linkname Fn1440 github.com/goccy/perlwasm2go/p0.Fn1440
+func Fn1440(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
 //go:linkname Fn1443 github.com/goccy/perlwasm2go/p0.Fn1443
-func Fn1443(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1443(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1448 github.com/goccy/perlwasm2go/p0.Fn1448
-func Fn1448(m *base.Module)
+//go:linkname Fn1491 github.com/goccy/perlwasm2go/p0.Fn1491
+func Fn1491(m *base.Module, l0 int32)
 
-//go:linkname Fn1449 github.com/goccy/perlwasm2go/p0.Fn1449
-func Fn1449(m *base.Module)
+//go:linkname Fn1492 github.com/goccy/perlwasm2go/p0.Fn1492
+func Fn1492(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1461 github.com/goccy/perlwasm2go/p0.Fn1461
-func Fn1461(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn1493 github.com/goccy/perlwasm2go/p0.Fn1493
+func Fn1493(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn1463 github.com/goccy/perlwasm2go/p0.Fn1463
-func Fn1463(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1494 github.com/goccy/perlwasm2go/p0.Fn1494
+func Fn1494(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1470 github.com/goccy/perlwasm2go/p0.Fn1470
-func Fn1470(m *base.Module, l0 int32)
+//go:linkname Fn1495 github.com/goccy/perlwasm2go/p0.Fn1495
+func Fn1495(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1471 github.com/goccy/perlwasm2go/p0.Fn1471
-func Fn1471(m *base.Module, l0 int32)
+//go:linkname Fn1496 github.com/goccy/perlwasm2go/p0.Fn1496
+func Fn1496(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1478 github.com/goccy/perlwasm2go/p0.Fn1478
-func Fn1478(m *base.Module, l0 int32) int32
+//go:linkname Fn1497 github.com/goccy/perlwasm2go/p0.Fn1497
+func Fn1497(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1489 github.com/goccy/perlwasm2go/p0.Fn1489
-func Fn1489(m *base.Module, l0 int32) int32
+//go:linkname Fn1499 github.com/goccy/perlwasm2go/p0.Fn1499
+func Fn1499(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1517 github.com/goccy/perlwasm2go/p0.Fn1517
-func Fn1517(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn1500 github.com/goccy/perlwasm2go/p0.Fn1500
+func Fn1500(m *base.Module, l0 int32)
 
-//go:linkname Fn1519 github.com/goccy/perlwasm2go/p0.Fn1519
-func Fn1519(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1504 github.com/goccy/perlwasm2go/p0.Fn1504
+func Fn1504(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1534 github.com/goccy/perlwasm2go/p0.Fn1534
-func Fn1534(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn1505 github.com/goccy/perlwasm2go/p0.Fn1505
+func Fn1505(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1535 github.com/goccy/perlwasm2go/p0.Fn1535
-func Fn1535(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+//go:linkname Fn1508 github.com/goccy/perlwasm2go/p0.Fn1508
+func Fn1508(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1541 github.com/goccy/perlwasm2go/p0.Fn1541
-func Fn1541(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn1509 github.com/goccy/perlwasm2go/p0.Fn1509
+func Fn1509(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1549 github.com/goccy/perlwasm2go/p0.Fn1549
-func Fn1549(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn1510 github.com/goccy/perlwasm2go/p0.Fn1510
+func Fn1510(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1562 github.com/goccy/perlwasm2go/p0.Fn1562
-func Fn1562(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1515 github.com/goccy/perlwasm2go/p0.Fn1515
+func Fn1515(m *base.Module)
 
-//go:linkname Fn1564 github.com/goccy/perlwasm2go/p0.Fn1564
-func Fn1564(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn1516 github.com/goccy/perlwasm2go/p0.Fn1516
+func Fn1516(m *base.Module)
 
-//go:linkname Fn1567 github.com/goccy/perlwasm2go/p0.Fn1567
-func Fn1567(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn1528 github.com/goccy/perlwasm2go/p0.Fn1528
+func Fn1528(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1568 github.com/goccy/perlwasm2go/p0.Fn1568
-func Fn1568(m *base.Module, l0 int32) int32
+//go:linkname Fn1530 github.com/goccy/perlwasm2go/p0.Fn1530
+func Fn1530(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1570 github.com/goccy/perlwasm2go/p0.Fn1570
-func Fn1570(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1536 github.com/goccy/perlwasm2go/p0.Fn1536
+func Fn1536(m *base.Module, l0 int32)
 
-//go:linkname Fn1571 github.com/goccy/perlwasm2go/p0.Fn1571
-func Fn1571(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1537 github.com/goccy/perlwasm2go/p0.Fn1537
+func Fn1537(m *base.Module, l0 int32)
 
-//go:linkname Fn1574 github.com/goccy/perlwasm2go/p0.Fn1574
-func Fn1574(m *base.Module, l0 int32) int32
+//go:linkname Fn1544 github.com/goccy/perlwasm2go/p0.Fn1544
+func Fn1544(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1576 github.com/goccy/perlwasm2go/p0.Fn1576
-func Fn1576(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1578 github.com/goccy/perlwasm2go/p0.Fn1578
-func Fn1578(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
-
-//go:linkname Fn1579 github.com/goccy/perlwasm2go/p0.Fn1579
-func Fn1579(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1581 github.com/goccy/perlwasm2go/p0.Fn1581
-func Fn1581(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1555 github.com/goccy/perlwasm2go/p0.Fn1555
+func Fn1555(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1583 github.com/goccy/perlwasm2go/p0.Fn1583
 func Fn1583(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1584 github.com/goccy/perlwasm2go/p0.Fn1584
-func Fn1584(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
 //go:linkname Fn1585 github.com/goccy/perlwasm2go/p0.Fn1585
-func Fn1585(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1587 github.com/goccy/perlwasm2go/p0.Fn1587
-func Fn1587(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1588 github.com/goccy/perlwasm2go/p0.Fn1588
-func Fn1588(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1592 github.com/goccy/perlwasm2go/p0.Fn1592
-func Fn1592(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1593 github.com/goccy/perlwasm2go/p0.Fn1593
-func Fn1593(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn1594 github.com/goccy/perlwasm2go/p0.Fn1594
-func Fn1594(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn1597 github.com/goccy/perlwasm2go/p0.Fn1597
-func Fn1597(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1598 github.com/goccy/perlwasm2go/p0.Fn1598
-func Fn1598(m *base.Module, l0 int32)
+func Fn1585(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1600 github.com/goccy/perlwasm2go/p0.Fn1600
-func Fn1600(m *base.Module, l0 int32) int32
+func Fn1600(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
 //go:linkname Fn1601 github.com/goccy/perlwasm2go/p0.Fn1601
-func Fn1601(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+func Fn1601(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
-//go:linkname Fn1603 github.com/goccy/perlwasm2go/p0.Fn1603
-func Fn1603(m *base.Module, l0 int32)
-
-//go:linkname Fn1605 github.com/goccy/perlwasm2go/p0.Fn1605
-func Fn1605(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1608 github.com/goccy/perlwasm2go/p0.Fn1608
-func Fn1608(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
-
-//go:linkname Fn1609 github.com/goccy/perlwasm2go/p0.Fn1609
-func Fn1609(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1611 github.com/goccy/perlwasm2go/p0.Fn1611
-func Fn1611(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1612 github.com/goccy/perlwasm2go/p0.Fn1612
-func Fn1612(m *base.Module) int32
+//go:linkname Fn1607 github.com/goccy/perlwasm2go/p0.Fn1607
+func Fn1607(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
 //go:linkname Fn1615 github.com/goccy/perlwasm2go/p0.Fn1615
-func Fn1615(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1617 github.com/goccy/perlwasm2go/p0.Fn1617
-func Fn1617(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn1619 github.com/goccy/perlwasm2go/p0.Fn1619
-func Fn1619(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn1621 github.com/goccy/perlwasm2go/p0.Fn1621
-func Fn1621(m *base.Module, l0 int32)
-
-//go:linkname Fn1622 github.com/goccy/perlwasm2go/p0.Fn1622
-func Fn1622(m *base.Module, l0 int32)
-
-//go:linkname Fn1625 github.com/goccy/perlwasm2go/p0.Fn1625
-func Fn1625(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1626 github.com/goccy/perlwasm2go/p0.Fn1626
-func Fn1626(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1627 github.com/goccy/perlwasm2go/p0.Fn1627
-func Fn1627(m *base.Module, l0 int32)
+func Fn1615(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
 
 //go:linkname Fn1628 github.com/goccy/perlwasm2go/p0.Fn1628
-func Fn1628(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1629 github.com/goccy/perlwasm2go/p0.Fn1629
-func Fn1629(m *base.Module, l0 int32, l1 int32) int32
+func Fn1628(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1630 github.com/goccy/perlwasm2go/p0.Fn1630
-func Fn1630(m *base.Module, l0 int32) int32
+func Fn1630(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1632 github.com/goccy/perlwasm2go/p0.Fn1632
-func Fn1632(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1633 github.com/goccy/perlwasm2go/p0.Fn1633
+func Fn1633(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
 //go:linkname Fn1634 github.com/goccy/perlwasm2go/p0.Fn1634
-func Fn1634(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn1635 github.com/goccy/perlwasm2go/p0.Fn1635
-func Fn1635(m *base.Module, l0 int32, l1 int32)
+func Fn1634(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1636 github.com/goccy/perlwasm2go/p0.Fn1636
-func Fn1636(m *base.Module, l0 int32) int32
+func Fn1636(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1638 github.com/goccy/perlwasm2go/p0.Fn1638
-func Fn1638(m *base.Module, l0 int32)
+//go:linkname Fn1637 github.com/goccy/perlwasm2go/p0.Fn1637
+func Fn1637(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1640 github.com/goccy/perlwasm2go/p0.Fn1640
+func Fn1640(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1642 github.com/goccy/perlwasm2go/p0.Fn1642
-func Fn1642(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn1643 github.com/goccy/perlwasm2go/p0.Fn1643
-func Fn1643(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+func Fn1642(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
 //go:linkname Fn1644 github.com/goccy/perlwasm2go/p0.Fn1644
-func Fn1644(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1644(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn1648 github.com/goccy/perlwasm2go/p0.Fn1648
-func Fn1648(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1645 github.com/goccy/perlwasm2go/p0.Fn1645
+func Fn1645(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1647 github.com/goccy/perlwasm2go/p0.Fn1647
+func Fn1647(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1649 github.com/goccy/perlwasm2go/p0.Fn1649
+func Fn1649(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
 //go:linkname Fn1650 github.com/goccy/perlwasm2go/p0.Fn1650
-func Fn1650(m *base.Module, l0 int32) int32
+func Fn1650(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn1651 github.com/goccy/perlwasm2go/p0.Fn1651
-func Fn1651(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1651(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
 //go:linkname Fn1653 github.com/goccy/perlwasm2go/p0.Fn1653
-func Fn1653(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+func Fn1653(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1655 github.com/goccy/perlwasm2go/p0.Fn1655
-func Fn1655(m *base.Module, l0 int32)
+//go:linkname Fn1654 github.com/goccy/perlwasm2go/p0.Fn1654
+func Fn1654(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn1658 github.com/goccy/perlwasm2go/p0.Fn1658
 func Fn1658(m *base.Module, l0 int32, l1 int32, l2 int32) int32
@@ -572,412 +461,397 @@ func Fn1658(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 func Fn1659(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
 //go:linkname Fn1660 github.com/goccy/perlwasm2go/p0.Fn1660
-func Fn1660(m *base.Module, l0 int32, l1 int32)
+func Fn1660(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn1661 github.com/goccy/perlwasm2go/p0.Fn1661
-func Fn1661(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn1663 github.com/goccy/perlwasm2go/p0.Fn1663
+func Fn1663(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1662 github.com/goccy/perlwasm2go/p0.Fn1662
-func Fn1662(m *base.Module, l0 int32) int32
+//go:linkname Fn1664 github.com/goccy/perlwasm2go/p0.Fn1664
+func Fn1664(m *base.Module, l0 int32)
 
-//go:linkname Fn1665 github.com/goccy/perlwasm2go/p0.Fn1665
-func Fn1665(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1666 github.com/goccy/perlwasm2go/p0.Fn1666
+func Fn1666(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1684 github.com/goccy/perlwasm2go/p0.Fn1684
-func Fn1684(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1667 github.com/goccy/perlwasm2go/p0.Fn1667
+func Fn1667(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn1669 github.com/goccy/perlwasm2go/p0.Fn1669
+func Fn1669(m *base.Module, l0 int32)
+
+//go:linkname Fn1671 github.com/goccy/perlwasm2go/p0.Fn1671
+func Fn1671(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1674 github.com/goccy/perlwasm2go/p0.Fn1674
+func Fn1674(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
+
+//go:linkname Fn1675 github.com/goccy/perlwasm2go/p0.Fn1675
+func Fn1675(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1677 github.com/goccy/perlwasm2go/p0.Fn1677
+func Fn1677(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1678 github.com/goccy/perlwasm2go/p0.Fn1678
+func Fn1678(m *base.Module) int32
+
+//go:linkname Fn1681 github.com/goccy/perlwasm2go/p0.Fn1681
+func Fn1681(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1683 github.com/goccy/perlwasm2go/p0.Fn1683
+func Fn1683(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn1685 github.com/goccy/perlwasm2go/p0.Fn1685
+func Fn1685(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1687 github.com/goccy/perlwasm2go/p0.Fn1687
+func Fn1687(m *base.Module, l0 int32)
+
+//go:linkname Fn1688 github.com/goccy/perlwasm2go/p0.Fn1688
+func Fn1688(m *base.Module, l0 int32)
 
 //go:linkname Fn1691 github.com/goccy/perlwasm2go/p0.Fn1691
-func Fn1691(m *base.Module, l0 int32)
+func Fn1691(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1692 github.com/goccy/perlwasm2go/p0.Fn1692
+func Fn1692(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn1693 github.com/goccy/perlwasm2go/p0.Fn1693
+func Fn1693(m *base.Module, l0 int32)
+
+//go:linkname Fn1694 github.com/goccy/perlwasm2go/p0.Fn1694
+func Fn1694(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1695 github.com/goccy/perlwasm2go/p0.Fn1695
-func Fn1695(m *base.Module, l0 int32)
+func Fn1695(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1696 github.com/goccy/perlwasm2go/p0.Fn1696
 func Fn1696(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1697 github.com/goccy/perlwasm2go/p0.Fn1697
-func Fn1697(m *base.Module, l0 int32)
+//go:linkname Fn1698 github.com/goccy/perlwasm2go/p0.Fn1698
+func Fn1698(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1703 github.com/goccy/perlwasm2go/p0.Fn1703
-func Fn1703(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn1700 github.com/goccy/perlwasm2go/p0.Fn1700
+func Fn1700(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1701 github.com/goccy/perlwasm2go/p0.Fn1701
+func Fn1701(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1702 github.com/goccy/perlwasm2go/p0.Fn1702
+func Fn1702(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1704 github.com/goccy/perlwasm2go/p0.Fn1704
-func Fn1704(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn1704(m *base.Module, l0 int32)
 
-//go:linkname Fn1705 github.com/goccy/perlwasm2go/p0.Fn1705
-func Fn1705(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1708 github.com/goccy/perlwasm2go/p0.Fn1708
+func Fn1708(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1706 github.com/goccy/perlwasm2go/p0.Fn1706
-func Fn1706(m *base.Module, l0 int32)
+//go:linkname Fn1709 github.com/goccy/perlwasm2go/p0.Fn1709
+func Fn1709(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn1729 github.com/goccy/perlwasm2go/p0.Fn1729
-func Fn1729(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn1710 github.com/goccy/perlwasm2go/p0.Fn1710
+func Fn1710(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1738 github.com/goccy/perlwasm2go/p0.Fn1738
-func Fn1738(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1714 github.com/goccy/perlwasm2go/p0.Fn1714
+func Fn1714(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1741 github.com/goccy/perlwasm2go/p0.Fn1741
-func Fn1741(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn1716 github.com/goccy/perlwasm2go/p0.Fn1716
+func Fn1716(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1743 github.com/goccy/perlwasm2go/p0.Fn1743
-func Fn1743(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1717 github.com/goccy/perlwasm2go/p0.Fn1717
+func Fn1717(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1744 github.com/goccy/perlwasm2go/p0.Fn1744
-func Fn1744(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn1719 github.com/goccy/perlwasm2go/p0.Fn1719
+func Fn1719(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
-//go:linkname Fn1749 github.com/goccy/perlwasm2go/p0.Fn1749
-func Fn1749(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1721 github.com/goccy/perlwasm2go/p0.Fn1721
+func Fn1721(m *base.Module, l0 int32)
+
+//go:linkname Fn1724 github.com/goccy/perlwasm2go/p0.Fn1724
+func Fn1724(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1725 github.com/goccy/perlwasm2go/p0.Fn1725
+func Fn1725(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn1726 github.com/goccy/perlwasm2go/p0.Fn1726
+func Fn1726(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1727 github.com/goccy/perlwasm2go/p0.Fn1727
+func Fn1727(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+
+//go:linkname Fn1728 github.com/goccy/perlwasm2go/p0.Fn1728
+func Fn1728(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1731 github.com/goccy/perlwasm2go/p0.Fn1731
+func Fn1731(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn1750 github.com/goccy/perlwasm2go/p0.Fn1750
-func Fn1750(m *base.Module, l0 int32, l1 int32)
+func Fn1750(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1794 github.com/goccy/perlwasm2go/p0.Fn1794
-func Fn1794(m *base.Module, l0 int32) int32
+//go:linkname Fn1757 github.com/goccy/perlwasm2go/p0.Fn1757
+func Fn1757(m *base.Module, l0 int32)
+
+//go:linkname Fn1761 github.com/goccy/perlwasm2go/p0.Fn1761
+func Fn1761(m *base.Module, l0 int32)
+
+//go:linkname Fn1762 github.com/goccy/perlwasm2go/p0.Fn1762
+func Fn1762(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1763 github.com/goccy/perlwasm2go/p0.Fn1763
+func Fn1763(m *base.Module, l0 int32)
+
+//go:linkname Fn1769 github.com/goccy/perlwasm2go/p0.Fn1769
+func Fn1769(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn1770 github.com/goccy/perlwasm2go/p0.Fn1770
+func Fn1770(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn1771 github.com/goccy/perlwasm2go/p0.Fn1771
+func Fn1771(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1772 github.com/goccy/perlwasm2go/p0.Fn1772
+func Fn1772(m *base.Module, l0 int32)
 
 //go:linkname Fn1795 github.com/goccy/perlwasm2go/p0.Fn1795
-func Fn1795(m *base.Module, l0 int32) int32
+func Fn1795(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn1796 github.com/goccy/perlwasm2go/p0.Fn1796
-func Fn1796(m *base.Module, l0 int32) int32
+//go:linkname Fn1804 github.com/goccy/perlwasm2go/p0.Fn1804
+func Fn1804(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1797 github.com/goccy/perlwasm2go/p0.Fn1797
-func Fn1797(m *base.Module, l0 int32)
-
-//go:linkname Fn1799 github.com/goccy/perlwasm2go/p0.Fn1799
-func Fn1799(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn1802 github.com/goccy/perlwasm2go/p0.Fn1802
-func Fn1802(m *base.Module, l0 int32)
-
-//go:linkname Fn1808 github.com/goccy/perlwasm2go/p0.Fn1808
-func Fn1808(m *base.Module, l0 int32)
+//go:linkname Fn1807 github.com/goccy/perlwasm2go/p0.Fn1807
+func Fn1807(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
 //go:linkname Fn1809 github.com/goccy/perlwasm2go/p0.Fn1809
-func Fn1809(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+func Fn1809(m *base.Module, l0 int32, l1 int32, l2 int32)
 
 //go:linkname Fn1810 github.com/goccy/perlwasm2go/p0.Fn1810
-func Fn1810(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
-
-//go:linkname Fn1814 github.com/goccy/perlwasm2go/p0.Fn1814
-func Fn1814(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+func Fn1810(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
 //go:linkname Fn1815 github.com/goccy/perlwasm2go/p0.Fn1815
-func Fn1815(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1815(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn1817 github.com/goccy/perlwasm2go/p0.Fn1817
-func Fn1817(m *base.Module, l0 int32) float64
+//go:linkname Fn1816 github.com/goccy/perlwasm2go/p0.Fn1816
+func Fn1816(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn1820 github.com/goccy/perlwasm2go/p0.Fn1820
-func Fn1820(m *base.Module, l0 int32) int32
+//go:linkname Fn1860 github.com/goccy/perlwasm2go/p0.Fn1860
+func Fn1860(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1821 github.com/goccy/perlwasm2go/p0.Fn1821
-func Fn1821(m *base.Module, l0 int32) int32
+//go:linkname Fn1861 github.com/goccy/perlwasm2go/p0.Fn1861
+func Fn1861(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1822 github.com/goccy/perlwasm2go/p0.Fn1822
-func Fn1822(m *base.Module, l0 int32) int32
+//go:linkname Fn1862 github.com/goccy/perlwasm2go/p0.Fn1862
+func Fn1862(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1824 github.com/goccy/perlwasm2go/p0.Fn1824
-func Fn1824(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1863 github.com/goccy/perlwasm2go/p0.Fn1863
+func Fn1863(m *base.Module, l0 int32)
 
-//go:linkname Fn1826 github.com/goccy/perlwasm2go/p0.Fn1826
-func Fn1826(m *base.Module, l0 int32)
+//go:linkname Fn1865 github.com/goccy/perlwasm2go/p0.Fn1865
+func Fn1865(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn1827 github.com/goccy/perlwasm2go/p0.Fn1827
-func Fn1827(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1868 github.com/goccy/perlwasm2go/p0.Fn1868
+func Fn1868(m *base.Module, l0 int32)
 
-//go:linkname Fn1828 github.com/goccy/perlwasm2go/p0.Fn1828
-func Fn1828(m *base.Module, l0 int32)
+//go:linkname Fn1874 github.com/goccy/perlwasm2go/p0.Fn1874
+func Fn1874(m *base.Module, l0 int32)
 
-//go:linkname Fn1829 github.com/goccy/perlwasm2go/p0.Fn1829
-func Fn1829(m *base.Module, l0 int32)
-
-//go:linkname Fn1830 github.com/goccy/perlwasm2go/p0.Fn1830
-func Fn1830(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
-
-//go:linkname Fn1831 github.com/goccy/perlwasm2go/p0.Fn1831
-func Fn1831(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn1833 github.com/goccy/perlwasm2go/p0.Fn1833
-func Fn1833(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1838 github.com/goccy/perlwasm2go/p0.Fn1838
-func Fn1838(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1840 github.com/goccy/perlwasm2go/p0.Fn1840
-func Fn1840(m *base.Module, l0 int32)
-
-//go:linkname Fn1841 github.com/goccy/perlwasm2go/p0.Fn1841
-func Fn1841(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1842 github.com/goccy/perlwasm2go/p0.Fn1842
-func Fn1842(m *base.Module, l0 int32) int32
-
-//go:linkname Fn1849 github.com/goccy/perlwasm2go/p0.Fn1849
-func Fn1849(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn1850 github.com/goccy/perlwasm2go/p0.Fn1850
-func Fn1850(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn1871 github.com/goccy/perlwasm2go/p0.Fn1871
-func Fn1871(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn1875 github.com/goccy/perlwasm2go/p0.Fn1875
+func Fn1875(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
 //go:linkname Fn1876 github.com/goccy/perlwasm2go/p0.Fn1876
-func Fn1876(m *base.Module, l0 int32)
+func Fn1876(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
 //go:linkname Fn1880 github.com/goccy/perlwasm2go/p0.Fn1880
-func Fn1880(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1880(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn1884 github.com/goccy/perlwasm2go/p0.Fn1884
-func Fn1884(m *base.Module, l0 int32)
+//go:linkname Fn1881 github.com/goccy/perlwasm2go/p0.Fn1881
+func Fn1881(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1883 github.com/goccy/perlwasm2go/p0.Fn1883
+func Fn1883(m *base.Module, l0 int32) float64
+
+//go:linkname Fn1886 github.com/goccy/perlwasm2go/p0.Fn1886
+func Fn1886(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1887 github.com/goccy/perlwasm2go/p0.Fn1887
+func Fn1887(m *base.Module, l0 int32) int32
 
 //go:linkname Fn1888 github.com/goccy/perlwasm2go/p0.Fn1888
-func Fn1888(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn1888(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1890 github.com/goccy/perlwasm2go/p0.Fn1890
+func Fn1890(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn1892 github.com/goccy/perlwasm2go/p0.Fn1892
+func Fn1892(m *base.Module, l0 int32)
 
 //go:linkname Fn1893 github.com/goccy/perlwasm2go/p0.Fn1893
-func Fn1893(m *base.Module) int32
+func Fn1893(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn1894 github.com/goccy/perlwasm2go/p0.Fn1894
+func Fn1894(m *base.Module, l0 int32)
 
 //go:linkname Fn1895 github.com/goccy/perlwasm2go/p0.Fn1895
-func Fn1895(m *base.Module, l0 int32, l1 int32) int32
+func Fn1895(m *base.Module, l0 int32)
 
 //go:linkname Fn1896 github.com/goccy/perlwasm2go/p0.Fn1896
-func Fn1896(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+func Fn1896(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn1897 github.com/goccy/perlwasm2go/p0.Fn1897
+func Fn1897(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn1899 github.com/goccy/perlwasm2go/p0.Fn1899
-func Fn1899(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+func Fn1899(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1900 github.com/goccy/perlwasm2go/p0.Fn1900
-func Fn1900(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn1904 github.com/goccy/perlwasm2go/p0.Fn1904
+func Fn1904(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1905 github.com/goccy/perlwasm2go/p0.Fn1905
-func Fn1905(m *base.Module, l0 int32) int32
+//go:linkname Fn1906 github.com/goccy/perlwasm2go/p0.Fn1906
+func Fn1906(m *base.Module, l0 int32)
 
 //go:linkname Fn1907 github.com/goccy/perlwasm2go/p0.Fn1907
 func Fn1907(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2003 github.com/goccy/perlwasm2go/p0.Fn2003
-func Fn2003(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1908 github.com/goccy/perlwasm2go/p0.Fn1908
+func Fn1908(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2004 github.com/goccy/perlwasm2go/p0.Fn2004
-func Fn2004(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn1915 github.com/goccy/perlwasm2go/p0.Fn1915
+func Fn1915(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2022 github.com/goccy/perlwasm2go/p0.Fn2022
-func Fn2022(m *base.Module, l0 int32) int32
+//go:linkname Fn1916 github.com/goccy/perlwasm2go/p0.Fn1916
+func Fn1916(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2027 github.com/goccy/perlwasm2go/p0.Fn2027
-func Fn2027(m *base.Module, l0 int32)
+//go:linkname Fn1937 github.com/goccy/perlwasm2go/p0.Fn1937
+func Fn1937(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn2032 github.com/goccy/perlwasm2go/p0.Fn2032
-func Fn2032(m *base.Module, l0 int32) int32
+//go:linkname Fn1942 github.com/goccy/perlwasm2go/p0.Fn1942
+func Fn1942(m *base.Module, l0 int32)
 
-//go:linkname Fn2036 github.com/goccy/perlwasm2go/p0.Fn2036
-func Fn2036(m *base.Module, l0 int32)
+//go:linkname Fn1946 github.com/goccy/perlwasm2go/p0.Fn1946
+func Fn1946(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2148 github.com/goccy/perlwasm2go/p0.Fn2148
-func Fn2148(m *base.Module, l0 int32) int32
+//go:linkname Fn1950 github.com/goccy/perlwasm2go/p0.Fn1950
+func Fn1950(m *base.Module, l0 int32)
 
-//go:linkname Fn2199 github.com/goccy/perlwasm2go/p0.Fn2199
-func Fn2199(m *base.Module, l0 int32)
+//go:linkname Fn1954 github.com/goccy/perlwasm2go/p0.Fn1954
+func Fn1954(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2211 github.com/goccy/perlwasm2go/p0.Fn2211
-func Fn2211(m *base.Module, l0 int32)
+//go:linkname Fn1959 github.com/goccy/perlwasm2go/p0.Fn1959
+func Fn1959(m *base.Module) int32
 
-//go:linkname Fn2212 github.com/goccy/perlwasm2go/p0.Fn2212
-func Fn2212(m *base.Module, l0 int32)
+//go:linkname Fn1961 github.com/goccy/perlwasm2go/p0.Fn1961
+func Fn1961(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2213 github.com/goccy/perlwasm2go/p0.Fn2213
-func Fn2213(m *base.Module, l0 int32)
+//go:linkname Fn1962 github.com/goccy/perlwasm2go/p0.Fn1962
+func Fn1962(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+
+//go:linkname Fn1965 github.com/goccy/perlwasm2go/p0.Fn1965
+func Fn1965(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn1966 github.com/goccy/perlwasm2go/p0.Fn1966
+func Fn1966(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn1971 github.com/goccy/perlwasm2go/p0.Fn1971
+func Fn1971(m *base.Module, l0 int32) int32
+
+//go:linkname Fn1973 github.com/goccy/perlwasm2go/p0.Fn1973
+func Fn1973(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2069 github.com/goccy/perlwasm2go/p0.Fn2069
+func Fn2069(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2070 github.com/goccy/perlwasm2go/p0.Fn2070
+func Fn2070(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2088 github.com/goccy/perlwasm2go/p0.Fn2088
+func Fn2088(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2093 github.com/goccy/perlwasm2go/p0.Fn2093
+func Fn2093(m *base.Module, l0 int32)
+
+//go:linkname Fn2098 github.com/goccy/perlwasm2go/p0.Fn2098
+func Fn2098(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2102 github.com/goccy/perlwasm2go/p0.Fn2102
+func Fn2102(m *base.Module, l0 int32)
 
 //go:linkname Fn2214 github.com/goccy/perlwasm2go/p0.Fn2214
-func Fn2214(m *base.Module, l0 int32)
+func Fn2214(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2215 github.com/goccy/perlwasm2go/p0.Fn2215
-func Fn2215(m *base.Module, l0 int32)
+//go:linkname Fn2265 github.com/goccy/perlwasm2go/p0.Fn2265
+func Fn2265(m *base.Module, l0 int32)
 
-//go:linkname Fn2218 github.com/goccy/perlwasm2go/p0.Fn2218
-func Fn2218(m *base.Module, l0 int32)
+//go:linkname Fn2277 github.com/goccy/perlwasm2go/p0.Fn2277
+func Fn2277(m *base.Module, l0 int32)
 
-//go:linkname Fn2220 github.com/goccy/perlwasm2go/p0.Fn2220
-func Fn2220(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2278 github.com/goccy/perlwasm2go/p0.Fn2278
+func Fn2278(m *base.Module, l0 int32)
 
-//go:linkname Fn2226 github.com/goccy/perlwasm2go/p0.Fn2226
-func Fn2226(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2279 github.com/goccy/perlwasm2go/p0.Fn2279
+func Fn2279(m *base.Module, l0 int32)
 
-//go:linkname Fn2254 github.com/goccy/perlwasm2go/p0.Fn2254
-func Fn2254(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2280 github.com/goccy/perlwasm2go/p0.Fn2280
+func Fn2280(m *base.Module, l0 int32)
 
-//go:linkname Fn2263 github.com/goccy/perlwasm2go/p0.Fn2263
-func Fn2263(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2281 github.com/goccy/perlwasm2go/p0.Fn2281
+func Fn2281(m *base.Module, l0 int32)
 
-//go:linkname Fn2302 github.com/goccy/perlwasm2go/p0.Fn2302
-func Fn2302(m *base.Module, l0 int32) int32
+//go:linkname Fn2284 github.com/goccy/perlwasm2go/p0.Fn2284
+func Fn2284(m *base.Module, l0 int32)
 
-//go:linkname Fn2334 github.com/goccy/perlwasm2go/p0.Fn2334
-func Fn2334(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn2286 github.com/goccy/perlwasm2go/p0.Fn2286
+func Fn2286(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2346 github.com/goccy/perlwasm2go/p0.Fn2346
-func Fn2346(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn2292 github.com/goccy/perlwasm2go/p0.Fn2292
+func Fn2292(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn2353 github.com/goccy/perlwasm2go/p0.Fn2353
-func Fn2353(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2329 github.com/goccy/perlwasm2go/p0.Fn2329
+func Fn2329(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2402 github.com/goccy/perlwasm2go/p0.Fn2402
-func Fn2402(m *base.Module, l0 int32)
+//go:linkname Fn2368 github.com/goccy/perlwasm2go/p0.Fn2368
+func Fn2368(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2483 github.com/goccy/perlwasm2go/p0.Fn2483
-func Fn2483(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2400 github.com/goccy/perlwasm2go/p0.Fn2400
+func Fn2400(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn2491 github.com/goccy/perlwasm2go/p0.Fn2491
-func Fn2491(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
+//go:linkname Fn2412 github.com/goccy/perlwasm2go/p0.Fn2412
+func Fn2412(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn2494 github.com/goccy/perlwasm2go/p0.Fn2494
-func Fn2494(m *base.Module, l0 int32) int32
+//go:linkname Fn2419 github.com/goccy/perlwasm2go/p0.Fn2419
+func Fn2419(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn2532 github.com/goccy/perlwasm2go/p0.Fn2532
-func Fn2532(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32, l9 int32) int32
+//go:linkname Fn2468 github.com/goccy/perlwasm2go/p0.Fn2468
+func Fn2468(m *base.Module, l0 int32)
 
-//go:linkname Fn2538 github.com/goccy/perlwasm2go/p0.Fn2538
-func Fn2538(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2549 github.com/goccy/perlwasm2go/p0.Fn2549
+func Fn2549(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn2565 github.com/goccy/perlwasm2go/p0.Fn2565
-func Fn2565(m *base.Module, l0 int32) int32
+//go:linkname Fn2557 github.com/goccy/perlwasm2go/p0.Fn2557
+func Fn2557(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
 
-//go:linkname Fn2569 github.com/goccy/perlwasm2go/p0.Fn2569
-func Fn2569(m *base.Module) int32
+//go:linkname Fn2560 github.com/goccy/perlwasm2go/p0.Fn2560
+func Fn2560(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2574 github.com/goccy/perlwasm2go/p0.Fn2574
-func Fn2574(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2598 github.com/goccy/perlwasm2go/p0.Fn2598
+func Fn2598(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32, l9 int32) int32
 
 //go:linkname Fn2604 github.com/goccy/perlwasm2go/p0.Fn2604
 func Fn2604(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2609 github.com/goccy/perlwasm2go/p0.Fn2609
-func Fn2609(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn2631 github.com/goccy/perlwasm2go/p0.Fn2631
+func Fn2631(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2653 github.com/goccy/perlwasm2go/p0.Fn2653
-func Fn2653(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2635 github.com/goccy/perlwasm2go/p0.Fn2635
+func Fn2635(m *base.Module) int32
 
-//go:linkname Fn2654 github.com/goccy/perlwasm2go/p0.Fn2654
-func Fn2654(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2640 github.com/goccy/perlwasm2go/p0.Fn2640
+func Fn2640(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2655 github.com/goccy/perlwasm2go/p0.Fn2655
-func Fn2655(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2656 github.com/goccy/perlwasm2go/p0.Fn2656
-func Fn2656(m *base.Module) int32
-
-//go:linkname Fn2657 github.com/goccy/perlwasm2go/p0.Fn2657
-func Fn2657(m *base.Module)
-
-//go:linkname Fn2658 github.com/goccy/perlwasm2go/p0.Fn2658
-func Fn2658(m *base.Module)
-
-//go:linkname Fn2659 github.com/goccy/perlwasm2go/p0.Fn2659
-func Fn2659(m *base.Module, l0 int32)
-
-//go:linkname Fn2660 github.com/goccy/perlwasm2go/p0.Fn2660
-func Fn2660(m *base.Module, l0 int32)
-
-//go:linkname Fn2661 github.com/goccy/perlwasm2go/p0.Fn2661
-func Fn2661(m *base.Module) int32
-
-//go:linkname Fn2662 github.com/goccy/perlwasm2go/p0.Fn2662
-func Fn2662(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2663 github.com/goccy/perlwasm2go/p0.Fn2663
-func Fn2663(m *base.Module)
-
-//go:linkname Fn2664 github.com/goccy/perlwasm2go/p0.Fn2664
-func Fn2664(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn2665 github.com/goccy/perlwasm2go/p0.Fn2665
-func Fn2665(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2666 github.com/goccy/perlwasm2go/p0.Fn2666
-func Fn2666(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2667 github.com/goccy/perlwasm2go/p0.Fn2667
-func Fn2667(m *base.Module, l0 int32)
-
-//go:linkname Fn2668 github.com/goccy/perlwasm2go/p0.Fn2668
-func Fn2668(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2673 github.com/goccy/perlwasm2go/p0.Fn2673
-func Fn2673(m *base.Module, l0 int32)
-
-//go:linkname Fn2674 github.com/goccy/perlwasm2go/p0.Fn2674
-func Fn2674(m *base.Module, l0 int32)
+//go:linkname Fn2670 github.com/goccy/perlwasm2go/p0.Fn2670
+func Fn2670(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn2675 github.com/goccy/perlwasm2go/p0.Fn2675
-func Fn2675(m *base.Module, l0 int32)
+func Fn2675(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn2676 github.com/goccy/perlwasm2go/p0.Fn2676
-func Fn2676(m *base.Module, l0 int32)
-
-//go:linkname Fn2678 github.com/goccy/perlwasm2go/p0.Fn2678
-func Fn2678(m *base.Module, l0 int32)
-
-//go:linkname Fn2679 github.com/goccy/perlwasm2go/p0.Fn2679
-func Fn2679(m *base.Module, l0 int32)
-
-//go:linkname Fn2681 github.com/goccy/perlwasm2go/p0.Fn2681
-func Fn2681(m *base.Module, l0 int32)
-
-//go:linkname Fn2682 github.com/goccy/perlwasm2go/p0.Fn2682
-func Fn2682(m *base.Module, l0 int32)
-
-//go:linkname Fn2689 github.com/goccy/perlwasm2go/p0.Fn2689
-func Fn2689(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2690 github.com/goccy/perlwasm2go/p0.Fn2690
-func Fn2690(m *base.Module)
-
-//go:linkname Fn2693 github.com/goccy/perlwasm2go/p0.Fn2693
-func Fn2693(m *base.Module)
-
-//go:linkname Fn2697 github.com/goccy/perlwasm2go/p0.Fn2697
-func Fn2697(m *base.Module) int32
-
-//go:linkname Fn2703 github.com/goccy/perlwasm2go/p0.Fn2703
-func Fn2703(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2704 github.com/goccy/perlwasm2go/p0.Fn2704
-func Fn2704(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2705 github.com/goccy/perlwasm2go/p0.Fn2705
-func Fn2705(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2707 github.com/goccy/perlwasm2go/p0.Fn2707
-func Fn2707(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2708 github.com/goccy/perlwasm2go/p0.Fn2708
-func Fn2708(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2709 github.com/goccy/perlwasm2go/p0.Fn2709
-func Fn2709(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2711 github.com/goccy/perlwasm2go/p0.Fn2711
-func Fn2711(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2712 github.com/goccy/perlwasm2go/p0.Fn2712
-func Fn2712(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2713 github.com/goccy/perlwasm2go/p0.Fn2713
-func Fn2713(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2714 github.com/goccy/perlwasm2go/p0.Fn2714
-func Fn2714(m *base.Module) int32
-
-//go:linkname Fn2715 github.com/goccy/perlwasm2go/p0.Fn2715
-func Fn2715(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2716 github.com/goccy/perlwasm2go/p0.Fn2716
-func Fn2716(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn2717 github.com/goccy/perlwasm2go/p0.Fn2717
-func Fn2717(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2718 github.com/goccy/perlwasm2go/p0.Fn2718
-func Fn2718(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2710 github.com/goccy/perlwasm2go/p0.Fn2710
+func Fn2710(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn2719 github.com/goccy/perlwasm2go/p0.Fn2719
 func Fn2719(m *base.Module, l0 int32, l1 int32, l2 int32) int32
@@ -986,202 +860,250 @@ func Fn2719(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 func Fn2720(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn2721 github.com/goccy/perlwasm2go/p0.Fn2721
-func Fn2721(m *base.Module, l0 int32, l1 int32) int32
+func Fn2721(m *base.Module, l0 int32) int32
 
 //go:linkname Fn2722 github.com/goccy/perlwasm2go/p0.Fn2722
-func Fn2722(m *base.Module, l0 int32, l1 int32) int32
+func Fn2722(m *base.Module) int32
 
 //go:linkname Fn2723 github.com/goccy/perlwasm2go/p0.Fn2723
-func Fn2723(m *base.Module, l0 int32, l1 int32)
+func Fn2723(m *base.Module)
 
 //go:linkname Fn2724 github.com/goccy/perlwasm2go/p0.Fn2724
-func Fn2724(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+func Fn2724(m *base.Module)
 
 //go:linkname Fn2725 github.com/goccy/perlwasm2go/p0.Fn2725
-func Fn2725(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+func Fn2725(m *base.Module, l0 int32)
+
+//go:linkname Fn2726 github.com/goccy/perlwasm2go/p0.Fn2726
+func Fn2726(m *base.Module, l0 int32)
 
 //go:linkname Fn2727 github.com/goccy/perlwasm2go/p0.Fn2727
-func Fn2727(m *base.Module, l0 int32, l1 int32)
+func Fn2727(m *base.Module) int32
 
 //go:linkname Fn2728 github.com/goccy/perlwasm2go/p0.Fn2728
-func Fn2728(m *base.Module, l0 int32, l1 int32)
+func Fn2728(m *base.Module, l0 int32) int32
 
 //go:linkname Fn2729 github.com/goccy/perlwasm2go/p0.Fn2729
-func Fn2729(m *base.Module, l0 int32, l1 float64)
+func Fn2729(m *base.Module)
 
-//go:linkname Fn2735 github.com/goccy/perlwasm2go/p0.Fn2735
-func Fn2735(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2730 github.com/goccy/perlwasm2go/p0.Fn2730
+func Fn2730(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2731 github.com/goccy/perlwasm2go/p0.Fn2731
+func Fn2731(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2732 github.com/goccy/perlwasm2go/p0.Fn2732
+func Fn2732(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2733 github.com/goccy/perlwasm2go/p0.Fn2733
+func Fn2733(m *base.Module, l0 int32)
+
+//go:linkname Fn2734 github.com/goccy/perlwasm2go/p0.Fn2734
+func Fn2734(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2739 github.com/goccy/perlwasm2go/p0.Fn2739
 func Fn2739(m *base.Module, l0 int32)
 
 //go:linkname Fn2740 github.com/goccy/perlwasm2go/p0.Fn2740
-func Fn2740(m *base.Module, l0 int32, l1 int32) int32
+func Fn2740(m *base.Module, l0 int32)
 
-//go:linkname Fn2743 github.com/goccy/perlwasm2go/p0.Fn2743
-func Fn2743(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2741 github.com/goccy/perlwasm2go/p0.Fn2741
+func Fn2741(m *base.Module, l0 int32)
+
+//go:linkname Fn2742 github.com/goccy/perlwasm2go/p0.Fn2742
+func Fn2742(m *base.Module, l0 int32)
+
+//go:linkname Fn2744 github.com/goccy/perlwasm2go/p0.Fn2744
+func Fn2744(m *base.Module, l0 int32)
 
 //go:linkname Fn2745 github.com/goccy/perlwasm2go/p0.Fn2745
-func Fn2745(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+func Fn2745(m *base.Module, l0 int32)
+
+//go:linkname Fn2747 github.com/goccy/perlwasm2go/p0.Fn2747
+func Fn2747(m *base.Module, l0 int32)
 
 //go:linkname Fn2748 github.com/goccy/perlwasm2go/p0.Fn2748
-func Fn2748(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2749 github.com/goccy/perlwasm2go/p0.Fn2749
-func Fn2749(m *base.Module, l0 int32, l1 int32) float64
-
-//go:linkname Fn2750 github.com/goccy/perlwasm2go/p0.Fn2750
-func Fn2750(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2751 github.com/goccy/perlwasm2go/p0.Fn2751
-func Fn2751(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2753 github.com/goccy/perlwasm2go/p0.Fn2753
-func Fn2753(m *base.Module, l0 int32) int32
+func Fn2748(m *base.Module, l0 int32)
 
 //go:linkname Fn2755 github.com/goccy/perlwasm2go/p0.Fn2755
-func Fn2755(m *base.Module, l0 int32, l1 int32) int32
+func Fn2755(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2756 github.com/goccy/perlwasm2go/p0.Fn2756
-func Fn2756(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn2756(m *base.Module)
 
-//go:linkname Fn2757 github.com/goccy/perlwasm2go/p0.Fn2757
-func Fn2757(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn2761 github.com/goccy/perlwasm2go/p0.Fn2761
-func Fn2761(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2762 github.com/goccy/perlwasm2go/p0.Fn2762
-func Fn2762(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2759 github.com/goccy/perlwasm2go/p0.Fn2759
+func Fn2759(m *base.Module)
 
 //go:linkname Fn2763 github.com/goccy/perlwasm2go/p0.Fn2763
-func Fn2763(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn2764 github.com/goccy/perlwasm2go/p0.Fn2764
-func Fn2764(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2766 github.com/goccy/perlwasm2go/p0.Fn2766
-func Fn2766(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2768 github.com/goccy/perlwasm2go/p0.Fn2768
-func Fn2768(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+func Fn2763(m *base.Module) int32
 
 //go:linkname Fn2769 github.com/goccy/perlwasm2go/p0.Fn2769
-func Fn2769(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn2769(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2770 github.com/goccy/perlwasm2go/p0.Fn2770
-func Fn2770(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+func Fn2770(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2771 github.com/goccy/perlwasm2go/p0.Fn2771
+func Fn2771(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2773 github.com/goccy/perlwasm2go/p0.Fn2773
-func Fn2773(m *base.Module, l0 int32, l1 int32)
+func Fn2773(m *base.Module, l0 int32) int32
 
 //go:linkname Fn2774 github.com/goccy/perlwasm2go/p0.Fn2774
-func Fn2774(m *base.Module, l0 int32, l1 int32) int32
+func Fn2774(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2775 github.com/goccy/perlwasm2go/p0.Fn2775
+func Fn2775(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2777 github.com/goccy/perlwasm2go/p0.Fn2777
+func Fn2777(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2778 github.com/goccy/perlwasm2go/p0.Fn2778
+func Fn2778(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2779 github.com/goccy/perlwasm2go/p0.Fn2779
+func Fn2779(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2780 github.com/goccy/perlwasm2go/p0.Fn2780
+func Fn2780(m *base.Module) int32
+
+//go:linkname Fn2781 github.com/goccy/perlwasm2go/p0.Fn2781
+func Fn2781(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2782 github.com/goccy/perlwasm2go/p0.Fn2782
+func Fn2782(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2783 github.com/goccy/perlwasm2go/p0.Fn2783
+func Fn2783(m *base.Module, l0 int32) int32
 
 //go:linkname Fn2784 github.com/goccy/perlwasm2go/p0.Fn2784
-func Fn2784(m *base.Module, l0 int32)
+func Fn2784(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn2785 github.com/goccy/perlwasm2go/p0.Fn2785
-func Fn2785(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn2785(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn2786 github.com/goccy/perlwasm2go/p0.Fn2786
-func Fn2786(m *base.Module, l0 int32, l1 int32)
+func Fn2786(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn2787 github.com/goccy/perlwasm2go/p0.Fn2787
+func Fn2787(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn2788 github.com/goccy/perlwasm2go/p0.Fn2788
-func Fn2788(m *base.Module, l0 int32, l1 int32)
+func Fn2788(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2789 github.com/goccy/perlwasm2go/p0.Fn2789
+func Fn2789(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2790 github.com/goccy/perlwasm2go/p0.Fn2790
-func Fn2790(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+func Fn2790(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn2792 github.com/goccy/perlwasm2go/p0.Fn2792
-func Fn2792(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn2791 github.com/goccy/perlwasm2go/p0.Fn2791
+func Fn2791(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
 //go:linkname Fn2793 github.com/goccy/perlwasm2go/p0.Fn2793
-func Fn2793(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+func Fn2793(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2794 github.com/goccy/perlwasm2go/p0.Fn2794
-func Fn2794(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn2794(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2795 github.com/goccy/perlwasm2go/p0.Fn2795
-func Fn2795(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2796 github.com/goccy/perlwasm2go/p0.Fn2796
-func Fn2796(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2797 github.com/goccy/perlwasm2go/p0.Fn2797
-func Fn2797(m *base.Module, l0 int32)
-
-//go:linkname Fn2798 github.com/goccy/perlwasm2go/p0.Fn2798
-func Fn2798(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2800 github.com/goccy/perlwasm2go/p0.Fn2800
-func Fn2800(m *base.Module, l0 int32, l1 int32)
+func Fn2795(m *base.Module, l0 int32, l1 float64)
 
 //go:linkname Fn2801 github.com/goccy/perlwasm2go/p0.Fn2801
-func Fn2801(m *base.Module, l0 int32) int32
+func Fn2801(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2802 github.com/goccy/perlwasm2go/p0.Fn2802
-func Fn2802(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn2804 github.com/goccy/perlwasm2go/p0.Fn2804
-func Fn2804(m *base.Module, l0 int32) int32
+//go:linkname Fn2805 github.com/goccy/perlwasm2go/p0.Fn2805
+func Fn2805(m *base.Module, l0 int32)
 
 //go:linkname Fn2806 github.com/goccy/perlwasm2go/p0.Fn2806
-func Fn2806(m *base.Module, l0 int32) int32
+func Fn2806(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2807 github.com/goccy/perlwasm2go/p0.Fn2807
-func Fn2807(m *base.Module, l0 int32) int32
+//go:linkname Fn2809 github.com/goccy/perlwasm2go/p0.Fn2809
+func Fn2809(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2808 github.com/goccy/perlwasm2go/p0.Fn2808
-func Fn2808(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2811 github.com/goccy/perlwasm2go/p0.Fn2811
+func Fn2811(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn2812 github.com/goccy/perlwasm2go/p0.Fn2812
-func Fn2812(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2814 github.com/goccy/perlwasm2go/p0.Fn2814
+func Fn2814(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2815 github.com/goccy/perlwasm2go/p0.Fn2815
+func Fn2815(m *base.Module, l0 int32, l1 int32) float64
 
 //go:linkname Fn2816 github.com/goccy/perlwasm2go/p0.Fn2816
-func Fn2816(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+func Fn2816(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2825 github.com/goccy/perlwasm2go/p0.Fn2825
-func Fn2825(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2817 github.com/goccy/perlwasm2go/p0.Fn2817
+func Fn2817(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2826 github.com/goccy/perlwasm2go/p0.Fn2826
-func Fn2826(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2819 github.com/goccy/perlwasm2go/p0.Fn2819
+func Fn2819(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2821 github.com/goccy/perlwasm2go/p0.Fn2821
+func Fn2821(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2822 github.com/goccy/perlwasm2go/p0.Fn2822
+func Fn2822(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2823 github.com/goccy/perlwasm2go/p0.Fn2823
+func Fn2823(m *base.Module, l0 int32, l1 int32, l2 int32)
 
 //go:linkname Fn2827 github.com/goccy/perlwasm2go/p0.Fn2827
-func Fn2827(m *base.Module, l0 int32) int32
+func Fn2827(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn2828 github.com/goccy/perlwasm2go/p0.Fn2828
-func Fn2828(m *base.Module, l0 int32, l1 int32) int32
+func Fn2828(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn2829 github.com/goccy/perlwasm2go/p0.Fn2829
-func Fn2829(m *base.Module, l0 int32) int32
+func Fn2829(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn2830 github.com/goccy/perlwasm2go/p0.Fn2830
+func Fn2830(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2832 github.com/goccy/perlwasm2go/p0.Fn2832
+func Fn2832(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2834 github.com/goccy/perlwasm2go/p0.Fn2834
+func Fn2834(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
 //go:linkname Fn2835 github.com/goccy/perlwasm2go/p0.Fn2835
-func Fn2835(m *base.Module, l0 int32) int32
+func Fn2835(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2837 github.com/goccy/perlwasm2go/p0.Fn2837
-func Fn2837(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2836 github.com/goccy/perlwasm2go/p0.Fn2836
+func Fn2836(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn2838 github.com/goccy/perlwasm2go/p0.Fn2838
-func Fn2838(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2839 github.com/goccy/perlwasm2go/p0.Fn2839
+func Fn2839(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn2841 github.com/goccy/perlwasm2go/p0.Fn2841
-func Fn2841(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn2840 github.com/goccy/perlwasm2go/p0.Fn2840
+func Fn2840(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2844 github.com/goccy/perlwasm2go/p0.Fn2844
-func Fn2844(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2850 github.com/goccy/perlwasm2go/p0.Fn2850
+func Fn2850(m *base.Module, l0 int32)
 
-//go:linkname Fn2845 github.com/goccy/perlwasm2go/p0.Fn2845
-func Fn2845(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2851 github.com/goccy/perlwasm2go/p0.Fn2851
+func Fn2851(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2849 github.com/goccy/perlwasm2go/p0.Fn2849
-func Fn2849(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn2852 github.com/goccy/perlwasm2go/p0.Fn2852
+func Fn2852(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2854 github.com/goccy/perlwasm2go/p0.Fn2854
+func Fn2854(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2856 github.com/goccy/perlwasm2go/p0.Fn2856
+func Fn2856(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
 //go:linkname Fn2858 github.com/goccy/perlwasm2go/p0.Fn2858
 func Fn2858(m *base.Module, l0 int32, l1 int32)
 
+//go:linkname Fn2859 github.com/goccy/perlwasm2go/p0.Fn2859
+func Fn2859(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn2860 github.com/goccy/perlwasm2go/p0.Fn2860
+func Fn2860(m *base.Module, l0 int32, l1 int32, l2 int32)
+
 //go:linkname Fn2861 github.com/goccy/perlwasm2go/p0.Fn2861
-func Fn2861(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn2861(m *base.Module, l0 int32, l1 int32)
 
 //go:linkname Fn2862 github.com/goccy/perlwasm2go/p0.Fn2862
 func Fn2862(m *base.Module, l0 int32) int32
@@ -1190,190 +1112,271 @@ func Fn2862(m *base.Module, l0 int32) int32
 func Fn2863(m *base.Module, l0 int32)
 
 //go:linkname Fn2864 github.com/goccy/perlwasm2go/p0.Fn2864
-func Fn2864(m *base.Module, l0 int32, l1 int32)
+func Fn2864(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2875 github.com/goccy/perlwasm2go/p0.Fn2875
-func Fn2875(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn2866 github.com/goccy/perlwasm2go/p0.Fn2866
+func Fn2866(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn2880 github.com/goccy/perlwasm2go/p0.Fn2880
-func Fn2880(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2867 github.com/goccy/perlwasm2go/p0.Fn2867
+func Fn2867(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2890 github.com/goccy/perlwasm2go/p0.Fn2890
-func Fn2890(m *base.Module, l0 int32)
+//go:linkname Fn2868 github.com/goccy/perlwasm2go/p0.Fn2868
+func Fn2868(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2917 github.com/goccy/perlwasm2go/p0.Fn2917
-func Fn2917(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2870 github.com/goccy/perlwasm2go/p0.Fn2870
+func Fn2870(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2918 github.com/goccy/perlwasm2go/p0.Fn2918
-func Fn2918(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2872 github.com/goccy/perlwasm2go/p0.Fn2872
+func Fn2872(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2925 github.com/goccy/perlwasm2go/p0.Fn2925
-func Fn2925(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn2873 github.com/goccy/perlwasm2go/p0.Fn2873
+func Fn2873(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2942 github.com/goccy/perlwasm2go/p0.Fn2942
-func Fn2942(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn2874 github.com/goccy/perlwasm2go/p0.Fn2874
+func Fn2874(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn2943 github.com/goccy/perlwasm2go/p0.Fn2943
-func Fn2943(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2878 github.com/goccy/perlwasm2go/p0.Fn2878
+func Fn2878(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2945 github.com/goccy/perlwasm2go/p0.Fn2945
-func Fn2945(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn2882 github.com/goccy/perlwasm2go/p0.Fn2882
+func Fn2882(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn2891 github.com/goccy/perlwasm2go/p0.Fn2891
+func Fn2891(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2892 github.com/goccy/perlwasm2go/p0.Fn2892
+func Fn2892(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2893 github.com/goccy/perlwasm2go/p0.Fn2893
+func Fn2893(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2894 github.com/goccy/perlwasm2go/p0.Fn2894
+func Fn2894(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2895 github.com/goccy/perlwasm2go/p0.Fn2895
+func Fn2895(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2901 github.com/goccy/perlwasm2go/p0.Fn2901
+func Fn2901(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2903 github.com/goccy/perlwasm2go/p0.Fn2903
+func Fn2903(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2904 github.com/goccy/perlwasm2go/p0.Fn2904
+func Fn2904(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2907 github.com/goccy/perlwasm2go/p0.Fn2907
+func Fn2907(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn2910 github.com/goccy/perlwasm2go/p0.Fn2910
+func Fn2910(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2911 github.com/goccy/perlwasm2go/p0.Fn2911
+func Fn2911(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn2915 github.com/goccy/perlwasm2go/p0.Fn2915
+func Fn2915(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+
+//go:linkname Fn2924 github.com/goccy/perlwasm2go/p0.Fn2924
+func Fn2924(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2927 github.com/goccy/perlwasm2go/p0.Fn2927
+func Fn2927(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn2928 github.com/goccy/perlwasm2go/p0.Fn2928
+func Fn2928(m *base.Module, l0 int32) int32
+
+//go:linkname Fn2929 github.com/goccy/perlwasm2go/p0.Fn2929
+func Fn2929(m *base.Module, l0 int32)
+
+//go:linkname Fn2930 github.com/goccy/perlwasm2go/p0.Fn2930
+func Fn2930(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn2941 github.com/goccy/perlwasm2go/p0.Fn2941
+func Fn2941(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
 //go:linkname Fn2946 github.com/goccy/perlwasm2go/p0.Fn2946
-func Fn2946(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
+func Fn2946(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn2947 github.com/goccy/perlwasm2go/p0.Fn2947
-func Fn2947(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2956 github.com/goccy/perlwasm2go/p0.Fn2956
+func Fn2956(m *base.Module, l0 int32)
 
-//go:linkname Fn2951 github.com/goccy/perlwasm2go/p0.Fn2951
-func Fn2951(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn2983 github.com/goccy/perlwasm2go/p0.Fn2983
+func Fn2983(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn2953 github.com/goccy/perlwasm2go/p0.Fn2953
-func Fn2953(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2954 github.com/goccy/perlwasm2go/p0.Fn2954
-func Fn2954(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn2955 github.com/goccy/perlwasm2go/p0.Fn2955
-func Fn2955(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn2957 github.com/goccy/perlwasm2go/p0.Fn2957
-func Fn2957(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn2969 github.com/goccy/perlwasm2go/p0.Fn2969
-func Fn2969(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn2970 github.com/goccy/perlwasm2go/p0.Fn2970
-func Fn2970(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2975 github.com/goccy/perlwasm2go/p0.Fn2975
-func Fn2975(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
-
-//go:linkname Fn2976 github.com/goccy/perlwasm2go/p0.Fn2976
-func Fn2976(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn2978 github.com/goccy/perlwasm2go/p0.Fn2978
-func Fn2978(m *base.Module, l0 int32) int32
-
-//go:linkname Fn2979 github.com/goccy/perlwasm2go/p0.Fn2979
-func Fn2979(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn2980 github.com/goccy/perlwasm2go/p0.Fn2980
-func Fn2980(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2981 github.com/goccy/perlwasm2go/p0.Fn2981
-func Fn2981(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2982 github.com/goccy/perlwasm2go/p0.Fn2982
-func Fn2982(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn2984 github.com/goccy/perlwasm2go/p0.Fn2984
+func Fn2984(m *base.Module, l0 int32, l1 int32) int32
 
 //go:linkname Fn2991 github.com/goccy/perlwasm2go/p0.Fn2991
-func Fn2991(m *base.Module, l0 int32, l1 int32) int32
+func Fn2991(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn2993 github.com/goccy/perlwasm2go/p0.Fn2993
-func Fn2993(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3008 github.com/goccy/perlwasm2go/p0.Fn3008
+func Fn3008(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn2994 github.com/goccy/perlwasm2go/p0.Fn2994
-func Fn2994(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2995 github.com/goccy/perlwasm2go/p0.Fn2995
-func Fn2995(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2997 github.com/goccy/perlwasm2go/p0.Fn2997
-func Fn2997(m *base.Module, l0 int32)
-
-//go:linkname Fn2998 github.com/goccy/perlwasm2go/p0.Fn2998
-func Fn2998(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn2999 github.com/goccy/perlwasm2go/p0.Fn2999
-func Fn2999(m *base.Module)
-
-//go:linkname Fn3001 github.com/goccy/perlwasm2go/p0.Fn3001
-func Fn3001(m *base.Module, l0 int32)
-
-//go:linkname Fn3003 github.com/goccy/perlwasm2go/p0.Fn3003
-func Fn3003(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn3004 github.com/goccy/perlwasm2go/p0.Fn3004
-func Fn3004(m *base.Module)
-
-//go:linkname Fn3006 github.com/goccy/perlwasm2go/p0.Fn3006
-func Fn3006(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn3007 github.com/goccy/perlwasm2go/p0.Fn3007
-func Fn3007(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn3009 github.com/goccy/perlwasm2go/p0.Fn3009
+func Fn3009(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn3011 github.com/goccy/perlwasm2go/p0.Fn3011
-func Fn3011(m *base.Module, l0 int32, l1 int32)
+func Fn3011(m *base.Module, l0 int32, l1 int32, l2 int32)
 
 //go:linkname Fn3012 github.com/goccy/perlwasm2go/p0.Fn3012
-func Fn3012(m *base.Module, l0 int32, l1 int32, l2 int32)
+func Fn3012(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
-//go:linkname Fn3014 github.com/goccy/perlwasm2go/p0.Fn3014
-func Fn3014(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn3013 github.com/goccy/perlwasm2go/p0.Fn3013
+func Fn3013(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn3022 github.com/goccy/perlwasm2go/p0.Fn3022
-func Fn3022(m *base.Module, l0 int32) int32
+//go:linkname Fn3017 github.com/goccy/perlwasm2go/p0.Fn3017
+func Fn3017(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn3029 github.com/goccy/perlwasm2go/p0.Fn3029
-func Fn3029(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn3019 github.com/goccy/perlwasm2go/p0.Fn3019
+func Fn3019(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn3032 github.com/goccy/perlwasm2go/p0.Fn3032
-func Fn3032(m *base.Module, l0 int32) int32
+//go:linkname Fn3020 github.com/goccy/perlwasm2go/p0.Fn3020
+func Fn3020(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn3033 github.com/goccy/perlwasm2go/p0.Fn3033
-func Fn3033(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3021 github.com/goccy/perlwasm2go/p0.Fn3021
+func Fn3021(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn3034 github.com/goccy/perlwasm2go/p0.Fn3034
-func Fn3034(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn3023 github.com/goccy/perlwasm2go/p0.Fn3023
+func Fn3023(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn3035 github.com/goccy/perlwasm2go/p0.Fn3035
-func Fn3035(m *base.Module, l0 int32) int32
+func Fn3035(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
 //go:linkname Fn3036 github.com/goccy/perlwasm2go/p0.Fn3036
-func Fn3036(m *base.Module, l0 int32) int32
+func Fn3036(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn3039 github.com/goccy/perlwasm2go/p0.Fn3039
-func Fn3039(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3041 github.com/goccy/perlwasm2go/p0.Fn3041
+func Fn3041(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn3042 github.com/goccy/perlwasm2go/p0.Fn3042
+func Fn3042(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn3044 github.com/goccy/perlwasm2go/p0.Fn3044
+func Fn3044(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3045 github.com/goccy/perlwasm2go/p0.Fn3045
+func Fn3045(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn3046 github.com/goccy/perlwasm2go/p0.Fn3046
+func Fn3046(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3047 github.com/goccy/perlwasm2go/p0.Fn3047
+func Fn3047(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3048 github.com/goccy/perlwasm2go/p0.Fn3048
+func Fn3048(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn3057 github.com/goccy/perlwasm2go/p0.Fn3057
+func Fn3057(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3059 github.com/goccy/perlwasm2go/p0.Fn3059
+func Fn3059(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3060 github.com/goccy/perlwasm2go/p0.Fn3060
+func Fn3060(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3061 github.com/goccy/perlwasm2go/p0.Fn3061
+func Fn3061(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3063 github.com/goccy/perlwasm2go/p0.Fn3063
+func Fn3063(m *base.Module, l0 int32)
+
+//go:linkname Fn3064 github.com/goccy/perlwasm2go/p0.Fn3064
+func Fn3064(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3065 github.com/goccy/perlwasm2go/p0.Fn3065
+func Fn3065(m *base.Module)
+
+//go:linkname Fn3067 github.com/goccy/perlwasm2go/p0.Fn3067
+func Fn3067(m *base.Module, l0 int32)
+
+//go:linkname Fn3069 github.com/goccy/perlwasm2go/p0.Fn3069
+func Fn3069(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn3070 github.com/goccy/perlwasm2go/p0.Fn3070
+func Fn3070(m *base.Module)
+
+//go:linkname Fn3072 github.com/goccy/perlwasm2go/p0.Fn3072
+func Fn3072(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn3073 github.com/goccy/perlwasm2go/p0.Fn3073
+func Fn3073(m *base.Module, l0 int32, l1 int32, l2 int32)
 
 //go:linkname Fn3077 github.com/goccy/perlwasm2go/p0.Fn3077
-func Fn3077(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
+func Fn3077(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn3124 github.com/goccy/perlwasm2go/p0.Fn3124
-func Fn3124(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn3078 github.com/goccy/perlwasm2go/p0.Fn3078
+func Fn3078(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn3080 github.com/goccy/perlwasm2go/p0.Fn3080
+func Fn3080(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn3088 github.com/goccy/perlwasm2go/p0.Fn3088
+func Fn3088(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3095 github.com/goccy/perlwasm2go/p0.Fn3095
+func Fn3095(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn3098 github.com/goccy/perlwasm2go/p0.Fn3098
+func Fn3098(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3099 github.com/goccy/perlwasm2go/p0.Fn3099
+func Fn3099(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3100 github.com/goccy/perlwasm2go/p0.Fn3100
+func Fn3100(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn3101 github.com/goccy/perlwasm2go/p0.Fn3101
+func Fn3101(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3102 github.com/goccy/perlwasm2go/p0.Fn3102
+func Fn3102(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3105 github.com/goccy/perlwasm2go/p0.Fn3105
+func Fn3105(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3143 github.com/goccy/perlwasm2go/p0.Fn3143
+func Fn3143(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
 
 //go:linkname Fn3190 github.com/goccy/perlwasm2go/p0.Fn3190
-func Fn3190(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+func Fn3190(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
-//go:linkname Fn3375 github.com/goccy/perlwasm2go/p0.Fn3375
-func Fn3375(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn3256 github.com/goccy/perlwasm2go/p0.Fn3256
+func Fn3256(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn3378 github.com/goccy/perlwasm2go/p0.Fn3378
-func Fn3378(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn3384 github.com/goccy/perlwasm2go/p0.Fn3384
+func Fn3384(m *base.Module, l0 int32)
 
-//go:linkname Fn3480 github.com/goccy/perlwasm2go/p0.Fn3480
-func Fn3480(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn3457 github.com/goccy/perlwasm2go/p0.Fn3457
+func Fn3457(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn3485 github.com/goccy/perlwasm2go/p0.Fn3485
-func Fn3485(m *base.Module, l0 int32, l1 int32) float64
+//go:linkname Fn3460 github.com/goccy/perlwasm2go/p0.Fn3460
+func Fn3460(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn3487 github.com/goccy/perlwasm2go/p0.Fn3487
-func Fn3487(m *base.Module, l0 int32) int32
+//go:linkname Fn3562 github.com/goccy/perlwasm2go/p0.Fn3562
+func Fn3562(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn3511 github.com/goccy/perlwasm2go/p0.Fn3511
-func Fn3511(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3567 github.com/goccy/perlwasm2go/p0.Fn3567
+func Fn3567(m *base.Module, l0 int32, l1 int32) float64
 
-//go:linkname Fn3515 github.com/goccy/perlwasm2go/p0.Fn3515
-func Fn3515(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3569 github.com/goccy/perlwasm2go/p0.Fn3569
+func Fn3569(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3519 github.com/goccy/perlwasm2go/p0.Fn3519
-func Fn3519(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3597 github.com/goccy/perlwasm2go/p0.Fn3597
+func Fn3597(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn3530 github.com/goccy/perlwasm2go/p0.Fn3530
-func Fn3530(m *base.Module, l0 int32) int32
+//go:linkname Fn3600 github.com/goccy/perlwasm2go/p0.Fn3600
+func Fn3600(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn3538 github.com/goccy/perlwasm2go/p0.Fn3538
-func Fn3538(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3604 github.com/goccy/perlwasm2go/p0.Fn3604
+func Fn3604(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn3550 github.com/goccy/perlwasm2go/p0.Fn3550
-func Fn3550(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3608 github.com/goccy/perlwasm2go/p0.Fn3608
+func Fn3608(m *base.Module, l0 int32) int32
+
+//go:linkname Fn3629 github.com/goccy/perlwasm2go/p0.Fn3629
+func Fn3629(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn3640 github.com/goccy/perlwasm2go/p0.Fn3640
+func Fn3640(m *base.Module, l0 int32, l1 int32) int32

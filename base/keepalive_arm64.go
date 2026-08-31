@@ -104,6 +104,8 @@ func init() {
 	(EnvImports)(nil).Ttyname(nil, 0)
 	(EnvImports)(nil).Tzset(nil)
 	(EnvImports)(nil).Umask(nil, 0)
+	(EnvImports)(nil).X__cxa_allocate_exception(nil, 0)
+	(EnvImports)(nil).X__cxa_throw(nil, 0, 0, 0)
 	(Wasi_snapshot_preview1Imports)(nil).Clock_time_get(nil, 0, 0, 0)
 	(Wasi_snapshot_preview1Imports)(nil).Environ_get(nil, 0, 0)
 	(Wasi_snapshot_preview1Imports)(nil).Environ_sizes_get(nil, 0, 0)
