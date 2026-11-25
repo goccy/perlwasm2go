@@ -4406,7 +4406,7 @@ L170:
 L171:
 	;
 	v719 = v434 + int64(88)
-	Fn231(m, v719, v589, int64(8612403))
+	Fn231(m, v719, v589, int64(8612436))
 	mBase = m.M
 	v722 = m.ExcPending
 	if v722 != 0 {
@@ -153592,7 +153592,7 @@ L47:
 	;
 	v304 = *(*int64)(unsafe.Add(mBase, uint64(v302)))
 	*(*int32)(unsafe.Add(mBase, uint64(v304)+40)) = int32(11)
-	v309 = Fn2247(m, int64(8612413), int64(1375))
+	v309 = Fn2247(m, int64(8612446), int64(1375))
 	mBase = m.M
 	v310 = m.ExcPending
 	if v310 != 0 {
@@ -153628,7 +153628,7 @@ L50:
 	;
 	v325 = *(*int64)(unsafe.Add(mBase, uint64(v323)))
 	*(*int32)(unsafe.Add(mBase, uint64(v325)+40)) = int32(14)
-	v330 = Fn2247(m, int64(8612426), int64(1375))
+	v330 = Fn2247(m, int64(8612459), int64(1375))
 	mBase = m.M
 	v331 = m.ExcPending
 	if v331 != 0 {
@@ -153808,7 +153808,7 @@ L65:
 	;
 	v430 = *(*int64)(unsafe.Add(mBase, uint64(v428)))
 	*(*int32)(unsafe.Add(mBase, uint64(v430)+40)) = int32(29)
-	v435 = Fn2247(m, int64(8612352), int64(1375))
+	v435 = Fn2247(m, int64(8612385), int64(1375))
 	mBase = m.M
 	v436 = m.ExcPending
 	if v436 != 0 {
@@ -191766,7 +191766,7 @@ func Fn1750(m *base.Module, l0 int64) {
 							if v57 != 0 {
 								return
 							} else {
-								v63 = Fn2246(m, int64(8612459), int64(1479), int64(8521970), int64(8605225), int32(0))
+								v63 = Fn2246(m, int64(8612492), int64(1479), int64(8521970), int64(8605225), int32(0))
 								mBase = m.M
 								v64 = m.ExcPending
 								if v64 != 0 {
@@ -191935,7 +191935,7 @@ func Fn1750(m *base.Module, l0 int64) {
 																												} else {
 																													v265 = *(*int64)(unsafe.Add(mBase, uint64(v263)))
 																													*(*int32)(unsafe.Add(mBase, uint64(v265)+40)) = int32(13)
-																													v273 = Fn2246(m, int64(8612436), int64(1480), int64(8521970), int64(8605225), int32(0))
+																													v273 = Fn2246(m, int64(8612469), int64(1480), int64(8521970), int64(8605225), int32(0))
 																													mBase = m.M
 																													v274 = m.ExcPending
 																													if v274 != 0 {
@@ -194382,7 +194382,7 @@ L28:
 L29:
 	;
 	v133 = int64(12690928)
-	v137 = int64(8612164)
+	v137 = int64(8612197)
 	goto L32
 L30:
 	;
@@ -253816,7 +253816,7 @@ L294:
 	goto L287
 L295:
 	;
-	v1493 = int64(8612217)
+	v1493 = int64(8612250)
 	goto L9
 L296:
 	;
@@ -837908,7 +837908,7 @@ L727:
 	}
 L728:
 	;
-	Fn4624(m, int64(8612362), int64(8521884), int32(1352), int64(8422139))
+	Fn4624(m, int64(8612395), int64(8521884), int32(1352), int64(8422139))
 	mBase = m.M
 	v3189 = m.ExcPending
 	if v3189 != 0 {
